@@ -1,0 +1,232 @@
+{
+    //Don't send data to Microsoft
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    //Git
+    "git.autofetch": true,
+    /**
+     * Editor customisation
+     */
+    //Terminal
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    //This stop soft opening file, always open the file in a new tab
+    "workbench.editor.enablePreview": false,
+    //Exclude folders from the Ctrl+P search
+    "search.exclude": {
+        "**/vendor": true,
+        "**/storage/app": true,
+        "**/storage/framework": true,
+        "**/config/packages": true,
+        "**/config/routes": true,
+        "**/src/Migrations": true,
+        "**/bin": true,
+        "**/var": true,
+    },
+    "search.collapseResults": "alwaysExpand",
+    "search.smartCase": true,
+    "search.useGlobalIgnoreFiles": true,
+    /**
+     * Text file customisation
+     */
+    //Fonts
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 19,
+    //Get a line or a line-thin
+    "editor.cursorStyle": "line",
+    //Automatically indent file
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    //Remove useless white space on the right of lines
+    "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+    //Smooth scroll
+    "editor.smoothScrolling": true,
+    //Get the color picker on colors
+    "editor.colorDecorators": true,
+    //Let you have multiple cursors by holding Ctrl
+    "editor.multiCursorModifier": "ctrlCmd",
+    //To save performance
+    "php.validate.run": "onSave",
+    //Bring the snippets on top of the suggestions
+    "editor.snippetSuggestions": "top",
+    //Show/Hide the minimap
+    "editor.minimap.enabled": false,
+    //Hide the opened files on the navbar
+    "explorer.openEditors.visible": 0,
+    "window.zoomLevel": 0,
+    //You need to install PHP Code Sniffer (composer global require "squizlabs/php_codesniffer=*")
+    "phpcs.enable": true,
+    "phpcs.standard": "PSR2",
+    //Crossplatform and PSR2 standard EOF line
+    "files.eol": "\n",
+    //Get autocomplete inside strings
+    "editor.quickSuggestions": {
+        "strings": true,
+    },
+    /**
+     * THEME
+     */
+    //Selection colors
+    "editor.cursorWidth": 2,
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#06669e67",
+        "editorBracketMatch.background": "#4d4c4c7c",
+        "editor.selectionHighlightBackground": "#4d4c4c79",
+        "editorBracketMatch.border": "#e4e4e4"
+    },
+    //Theme to run with Dark+
+    "editor.tokenColorCustomizations": {
+        "functions": "#54e0ff",
+        "keywords": "#60aaff",
+        "strings": "#ffaf8a",
+        "types": "#83fd9d",
+        "variables": "#e4e4e4",
+        "comments": "#5bbd60",
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.other.inherited-class",
+                    "storage",
+                    "storage.modifier",
+                    "storage.type",
+                ],
+                "settings": {
+                    "foreground": "#60aaff"
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.inherited-class",
+                ],
+                "settings": {
+                    "foreground": "#83fd9d",
+                    "fontStyle": "underline"
+                }
+            },
+            {
+                "scope": [
+                    "variable.language",
+                ],
+                "settings": {
+                    "foreground": "#eba5fd",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.other",
+                ],
+                "settings": {
+                    "foreground": "#60aaff"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.tag",
+                ],
+                "settings": {
+                    "foreground": "#60aaff"
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.attribute-name",
+                ],
+                "settings": {
+                    "foreground": "#54e0ff"
+                }
+            },
+            {
+                "scope": [
+                    "comment.block",
+                    "comment.block.documentation",
+                ],
+                "settings": {
+                    "foreground": "#9c9c9c"
+                }
+            }
+        ],
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "files.associations": {
+        "*.twig": "html"
+    },
+    //With PHP Namespace resolver
+    "namespaceResolver.autoSort": false,
+    "editor.detectIndentation": false,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.codeActionsOnSaveTimeout": 1500,
+    "editor.fastScrollSensitivity": 10,
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "off",
+    "editor.wrappingIndent": "deepIndent",
+    "editor.find.autoFindInSelection": true,
+    "editor.formatOnSaveTimeout": 1500,
+    "workbench.commandPalette.history": 10,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.tree.indent": 22,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.tabSizing": "shrink",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "window.autoDetectHighContrast": false,
+    "window.menuBarVisibility": "visible",
+    "window.restoreWindows": "all",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+    "debug.inlineValues": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "Consolas",
+    "terminal.integrated.letterSpacing": 1,
+    "terminal.integrated.rendererType": "canvas",
+    "terminal.integrated.splitCwd": "workspaceRoot",
+    "update.enableWindowsBackgroundUpdates": false,
+    "css.lint.boxModel": "warning",
+    "css.lint.compatibleVendorPrefixes": "warning",
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.float": "error",
+    "css.lint.idSelector": "warning",
+    "css.lint.ieHack": "warning",
+    "css.lint.important": "error",
+    "css.lint.unknownVendorSpecificProperties": "warning",
+    "css.lint.zeroUnits": "warning",
+    "git.autofetchPeriod": 120,
+    "git.fetchOnPull": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.indentHandlebars": true,
+    "html.format.preserveNewLines": false,
+    "html.format.wrapLineLength": 0,
+    "less.lint.boxModel": "warning",
+    "less.lint.duplicateProperties": "warning",
+    "less.lint.compatibleVendorPrefixes": "warning",
+    "less.lint.float": "error",
+    "less.lint.idSelector": "warning",
+    "less.lint.ieHack": "warning",
+    "less.lint.important": "error",
+    "less.lint.unknownVendorSpecificProperties": "warning",
+    "less.lint.zeroUnits": "warning",
+    "material-icon-theme.activeIconPack": "react",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "namespaceResolver.highlightOnOpen": true,
+    "namespaceResolver.highlightOnSave": true,
+    "scss.lint.boxModel": "warning",
+    "scss.lint.compatibleVendorPrefixes": "warning",
+    "scss.lint.duplicateProperties": "warning",
+    "scss.lint.float": "error",
+    "scss.lint.idSelector": "warning",
+    "scss.lint.ieHack": "warning",
+    "scss.lint.important": "error",
+    "scss.lint.unknownVendorSpecificProperties": "warning",
+    "scss.lint.zeroUnits": "warning",
+    "zenMode.hideStatusBar": false,
+    "zenMode.centerLayout": false,
+}

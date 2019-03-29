@@ -2,6 +2,8 @@ Ctrl D - duplicate
 Ctrl Shift D - delete
 Ctrl Z - Undo
 Ctrl Shift Z - Redo
+Ctrl+Shift+C - Comment line
+Ctrl+Shift+V - Comment block
 Ctrl Scroll - Zoom In/Out
 Ctrl minus - Go Back
 Ctrl equal - Go Foward
@@ -34,3 +36,6 @@ Ctrl F2 - Change all occurences
 
 Ctrl+B - Toggle sidebar
 Ctrl+F11 Toggle Zen mode
+
+Ctrl+, - Open terminal
+Ctrl+` - Open settings

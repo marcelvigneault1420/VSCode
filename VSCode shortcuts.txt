@@ -39,3 +39,10 @@ Ctrl+F11 Toggle Zen mode
 
 Ctrl+, - Open terminal
 Ctrl+` - Open settings
+
+Ctrl+Shift+O - Open folder
+
+Ctrl+^ - Go To Symbol in file
+Ctrl+¸ - Go To Symbol in workspace
+Ctrl+Shift+^ - Outdent line
+Ctrl+Shift+¸ - Indent line

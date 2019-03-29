@@ -191,5 +191,59 @@
     {
         "key": "ctrl+oem_comma",
         "command": "-workbench.action.openSettings"
+    },
+    {
+        "key": "ctrl+shift+oem_4",
+        "command": "-editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+oem_4",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "workbench.action.files.openFolder"
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "-workbench.action.files.openFolder"
+    },
+    {
+        "key": "ctrl+shift+oem_6",
+        "command": "-editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+oem_6",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+shift+oem_6",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+oem_6",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+oem_4",
+        "command": "editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+oem_4",
+        "command": "-editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]

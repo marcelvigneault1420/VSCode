@@ -156,6 +156,13 @@
     //With PHP Namespace resolver
     "namespaceResolver.autoSort": false,
     "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.autoIndent": false
+    },
     "editor.autoClosingBrackets": "always",
     "editor.autoClosingQuotes": "always",
     "editor.codeActionsOnSaveTimeout": 1500,
@@ -234,4 +241,5 @@
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.multiCursorModifier": "ctrlCmd",
     "debug.console.fontFamily": "Consolas",
+    "workbench.list.openMode": "doubleClick",
 }

@@ -155,7 +155,6 @@
     },
     //With PHP Namespace resolver
     "namespaceResolver.autoSort": false,
-    "editor.detectIndentation": false,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "[yaml]": {
@@ -242,7 +241,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "debug.console.fontFamily": "Consolas",
     "workbench.list.openMode": "doubleClick",
-    "sasslint.configFile": "C:\\Users\\FMorin\\AppData\\Roaming\\Code\\User\\.sass-lint.yml",
+    "sasslint.configFile": "C:\\Users\\HP\\AppData\\Roaming\\Code\\User\\.sass-lint.yml",
     "eslint.autoFixOnSave": true,
     "eslint.options": {
         "rules": {
@@ -283,5 +282,9 @@
             "react/self-closing-comp": 1,
             "react/sort-comp": 1
         }
+    },
+    "editor.detectIndentation": false,
+    "[javascript]": {
+        "editor.formatOnSave": false
     }
 }

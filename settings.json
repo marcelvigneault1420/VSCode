@@ -226,7 +226,6 @@
     "scss.lint.compatibleVendorPrefixes": "warning",
     "scss.lint.duplicateProperties": "warning",
     "scss.lint.float": "error",
-    "scss.lint.idSelector": "warning",
     "scss.lint.ieHack": "warning",
     "scss.lint.important": "error",
     "scss.lint.unknownVendorSpecificProperties": "warning",
@@ -286,5 +285,7 @@
     "editor.detectIndentation": false,
     "[javascript]": {
         "editor.formatOnSave": false
-    }
+    },
+    "scss.validate": false,
+    "editor.largeFileOptimizations": false
 }

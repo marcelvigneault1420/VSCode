@@ -172,16 +172,12 @@
     "editor.find.autoFindInSelection": true,
     "editor.formatOnSaveTimeout": 1500,
     "workbench.commandPalette.history": 10,
-    "workbench.activityBar.visible": false,
-    "workbench.statusBar.feedback.visible": false,
     "workbench.tree.indent": 22,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.closeOnFileDelete": true,
     "workbench.editor.revealIfOpen": true,
     "workbench.editor.tabSizing": "shrink",
     "zenMode.hideLineNumbers": false,
-    "zenMode.hideTabs": false,
     "window.autoDetectHighContrast": false,
     "window.menuBarVisibility": "visible",
     "window.restoreWindows": "all",
@@ -230,7 +226,6 @@
     "scss.lint.important": "error",
     "scss.lint.unknownVendorSpecificProperties": "warning",
     "scss.lint.zeroUnits": "warning",
-    "zenMode.hideStatusBar": false,
     "zenMode.centerLayout": false,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
@@ -287,5 +282,10 @@
         "editor.formatOnSave": false
     },
     "scss.validate": false,
-    "editor.largeFileOptimizations": false
+    "editor.largeFileOptimizations": false,
+    "zenMode.hideStatusBar": false,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "zenMode.hideTabs": false
 }

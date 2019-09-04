@@ -235,7 +235,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "debug.console.fontFamily": "Consolas",
     "workbench.list.openMode": "doubleClick",
-    "sasslint.configFile": "C:\\Users\\HP\\AppData\\Roaming\\Code\\User\\.sass-lint.yml",
+    "sasslint.configFile": "C:\\Users\\FMorin\\AppData\\Roaming\\Code\\User\\.sass-lint.yml",
     "eslint.autoFixOnSave": true,
     "eslint.options": {
         "rules": {
@@ -249,6 +249,7 @@
             "no-unused-vars": 1,
             "no-param-reassign": 0,
             "no-irregular-whitespace": 2,
+            "linebreak-style": 0,
             "comma-dangle": 1,
             "no-undef": 2,
             "eol-last": 0,

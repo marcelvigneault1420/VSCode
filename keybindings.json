@@ -260,10 +260,6 @@
         "when": "!inDebugMode"
     },
     {
-        "key": "ctrl+shift+w",
-        "command": "workbench.action.closeAllEditors"
-    },
-    {
         "key": "ctrl+k ctrl+w",
         "command": "-workbench.action.closeAllEditors"
     },
@@ -399,5 +395,22 @@
         "key": "shift+alt+f",
         "command": "-editor.action.formatDocument.none",
         "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+w",
+        "command": "workbench.action.closeAllGroups"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+w",
+        "command": "-workbench.action.closeAllGroups"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.closeAllEditors"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-redo",
+        "when": "textInputFocus && !editorReadonly"
     }
 ]

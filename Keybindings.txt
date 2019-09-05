@@ -1,0 +1,87 @@
+Save file                                   Ctrl S
+Save all files                              Ctrl Shift S
+Save as                                     Ctrl Shift Alt S
+
+Copy                                        Ctrl C
+Paste                                       Ctrl V
+Cut                                         Ctrl X
+
+Open file 					                Ctrl O
+Open Folder					                Ctrl Shift O
+
+New file                                    Ctrl N
+New window                                  Ctrl Shift N
+
+Close file : Ctrl W
+Close all files (Close all editor groups)   Ctrl Shift W
+Reopen closed files                         Ctrl Shift T
+
+Run                                         F5
+
+Duplicate line down 		                Ctrl D
+Delete line					                Ctrl Shift D
+
+Search in file				                Ctrl F
+Search global				                Ctrl Shift F
+Select all occurence file	                Ctrl Shift Alt F
+
+Rename file									F2
+Change all occurences						?
+
+---
+
+Select						                Shift Left/Right
+Select by word 				                Ctrl Shift Left/Right
+Select all directions		                Ctrl Shift Alt Left/Right/Up/Down
+Multi cursor Up/Down                        Ctrl Up/Down
+Move cursor by word                         Ctrl Left/Right
+
+Focus next window/terminal                  Ctrl Alt Arrow
+
+Move editor in next group			        Shift Alt Arrow
+Move split new terminal		                Shift Alt Arrow (Voir Ctrl W)
+
+Go To line					                Ctrl G
+Open file					                Ctrl P
+	Open in new tab							Ctrl Enter
+Search Symbol in file		                Ctrl Shift Y
+Search Symbol global		                Ctrl Y
+Run command					                Ctrl Shift P
+
+Move line Up/Down                           Alt Up/Down
+navigate previous/next                      Ctrl +/-
+
+Select all                                  Ctrl A
+Select expand inside                        Ctrl Shift A
+Select Expand line                          Ctrl Shift Alt A
+
+Toggle side bar                             Ctrl B
+Explorer side bar                           Ctrl Shift E
+Git side bar                                Ctrl Shift G
+Run side bar                                Ctrl Shift F5
+
+Toggle terminal				                Ctrl '
+
+Go To Definition                            F12 (Ctrl Click)
+Reveal definition                           Ctrl Alt F12
+Open definition in side tab					Ctrl Alt Click
+
+Toggle breakpoint			                F9
+Remove all breakpoints                      Ctrl F9
+
+Toggle Full Screen			                F11
+Toggle Zen mode				                Ctrl F11
+Toggle Panel                                Ctrl J
+
+Toggle Comments line                        Ctrl Shift `
+Toggle Comments Block                       Ctrl Shift Alt `
+
+Indent line                                 Ctrl Shift ¸
+Unindent line                               Ctrl Shift ^
+
+Indent Document 			                Ctrl Shift I
+
+Fast Scroll									Alt Scroll
+Open explorer file in new tab				Ctrl Click
+
+Open settings								Ctrl `

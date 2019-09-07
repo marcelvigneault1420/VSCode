@@ -23,27 +23,40 @@ Delete line					                Ctrl Shift D
 
 Search in file				                Ctrl F
 Search global				                Ctrl Shift F
-Select all occurence file	                Ctrl Shift Alt F
+Replace										Ctrl H
+Replace all occurence files	                Ctrl Shift H
+
+Add selection to next find match			Ctrl L
+Select all occurence file	                Ctrl Shift L
 
 Rename file									F2
 Change all occurences						?
+
+Insert line below							Ctrl Enter
+Insert line above							Ctrl Shift Enter
+
+Open next editor							Ctrl Tab
+Open previous editor						Ctrl Shift Tab
+
+Scroll										Alt Down/Up/Left/Right
 
 ---
 
 Select						                Shift Left/Right
 Select by word 				                Ctrl Shift Left/Right
 Select all directions		                Ctrl Shift Alt Left/Right/Up/Down
+Select all directions		                Ctrl Shift Click
 Multi cursor Up/Down                        Ctrl Up/Down
 Move cursor by word                         Ctrl Left/Right
 
-Focus next window/terminal                  Ctrl Alt Arrow
+Focus next window/terminal                  Ctrl Alt Left/Right/Up/Down
 
-Move editor in next group			        Shift Alt Arrow
-Move split new terminal		                Shift Alt Arrow (Voir Ctrl W)
+Move editor in next group (Split editor?)   Shift Alt Left/Right/Up/Down
+Move split new terminal		                Shift Alt Left/Right/Up/Down
 
 Go To line					                Ctrl G
 Open file					                Ctrl P
-	Open in new tab							Ctrl Enter
+	-Open in new tab						Ctrl Enter
 Search Symbol in file		                Ctrl Shift Y
 Search Symbol global		                Ctrl Y
 Run command					                Ctrl Shift P
@@ -85,3 +98,10 @@ Fast Scroll									Alt Scroll
 Open explorer file in new tab				Ctrl Click
 
 Open settings								Ctrl `
+
+Select line downward (Better line select)	Ctrl Shift Down
+Select line upward (Better line select)		Ctrl Shift Up
+
+Show errors									?
+Go to next problem in file					F8
+Go to next problem							?

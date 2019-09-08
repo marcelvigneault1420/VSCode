@@ -12,11 +12,13 @@ Open Folder					                Ctrl Shift O
 New file                                    Ctrl N
 New window                                  Ctrl Shift N
 
-Close file : Ctrl W
+Close file									Ctrl W
 Close all files (Close all editor groups)   Ctrl Shift W
 Reopen closed files                         Ctrl Shift T
 
 Run                                         F5
+Restart run									Ctrl F5
+Stop run									Shift F5
 
 Duplicate line down 		                Ctrl D
 Delete line					                Ctrl Shift D
@@ -30,7 +32,7 @@ Add selection to next find match			Ctrl L
 Select all occurence file	                Ctrl Shift L
 
 Rename file									F2
-Change all occurences						?
+Change all occurences						F2
 
 Insert line below							Ctrl Enter
 Insert line above							Ctrl Shift Enter
@@ -46,62 +48,76 @@ Select						                Shift Left/Right
 Select by word 				                Ctrl Shift Left/Right
 Select all directions		                Ctrl Shift Alt Left/Right/Up/Down
 Select all directions		                Ctrl Shift Click
-Multi cursor Up/Down                        Ctrl Up/Down
+Multi cursor Up/Down                        Alt Up/Down
+Multi cursor Up/Down                        Alt Click
 Move cursor by word                         Ctrl Left/Right
 
-Focus next window/terminal                  Ctrl Alt Left/Right/Up/Down
+Select line downward (Better line select)	Ctrl Shift Down
+Select line upward (Better line select)		Ctrl Shift Up
 
-Move editor in next group (Split editor?)   Shift Alt Left/Right/Up/Down
-Move split new terminal		                Shift Alt Left/Right/Up/Down
+Focus next window/terminal                  Alt Left/Right
+
+Move editor in next group (Split editor?)   Ctrl Alt Left/Right
+Move split new terminal		                Ctrl Alt Left/Right
 
 Go To line					                Ctrl G
+
 Open file					                Ctrl P
-	-Open in new tab						Ctrl Enter
-Search Symbol in file		                Ctrl Shift Y
-Search Symbol global		                Ctrl Y
+	Navigate next							Ctrl P
+	Navigate previous						Ctrl Shift P
+	Open in new tab							Ctrl Enter
+	Quit									Ctrl Q
+	
+Open sidebar list			                Ctrl E
+	Navigate next							Ctrl E
+	Navigate previous						Ctrl Shift E
+	Quit									Ctrl Q
+	
 Run command					                Ctrl Shift P
 
-Move line Up/Down                           Alt Up/Down
+Search Symbol in file		                Ctrl Y
+Search Symbol global		                Ctrl Shift Y
+
+Move line Up/Down                           Ctrl Alt Up/Down
 navigate previous/next                      Ctrl +/-
 
 Select all                                  Ctrl A
-Select expand inside                        Ctrl Shift A
-Select Expand line                          Ctrl Shift Alt A
+Select expand outward                     	Ctrl Shift A
+Select Expand inward                        Ctrl Shift Alt A
 
 Toggle side bar                             Ctrl B
+Toggle Panel                                Ctrl Shift B
 Explorer side bar                           Ctrl Shift E
 Git side bar                                Ctrl Shift G
 Run side bar                                Ctrl Shift F5
+Extensions side bar                         Ctrl Shift X
 
 Toggle terminal				                Ctrl '
 
 Go To Definition                            F12 (Ctrl Click)
-Reveal definition                           Ctrl Alt F12
-Open definition in side tab					Ctrl Alt Click
+Reveal definition                           Ctrl Shift F12
 
 Toggle breakpoint			                F9
 Remove all breakpoints                      Ctrl F9
 
 Toggle Full Screen			                F11
 Toggle Zen mode				                Ctrl F11
-Toggle Panel                                Ctrl J
 
 Toggle Comments line                        Ctrl Shift `
 Toggle Comments Block                       Ctrl Shift Alt `
 
-Indent line                                 Ctrl Shift ¸
+Indent line                                 Ctrl Shift ,
 Unindent line                               Ctrl Shift ^
 
-Indent Document 			                Ctrl Shift I
+Indent Document 			                Ctrl K Ctrl D
 
 Fast Scroll									Alt Scroll
 Open explorer file in new tab				Ctrl Click
 
 Open settings								Ctrl `
 
-Select line downward (Better line select)	Ctrl Shift Down
-Select line upward (Better line select)		Ctrl Shift Up
-
-Show errors									?
-Go to next problem in file					F8
-Go to next problem							?
+Show errors									F8
+Go to next problem in file					Ctrl Shift F8
+Go to previous problem in file				Ctrl Shift Alt F8
+Go to next problem							Ctrl F8
+Go to previous problem						Shift F8

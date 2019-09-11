@@ -232,7 +232,6 @@
     "editor.wordBasedSuggestions": false,
     "editor.suggest.filterGraceful": false,
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    "editor.multiCursorModifier": "ctrlCmd",
     "debug.console.fontFamily": "Consolas",
     "workbench.list.openMode": "doubleClick",
     "sasslint.configFile": "C:\\Users\\FMorin\\AppData\\Roaming\\Code\\User\\.sass-lint.yml",

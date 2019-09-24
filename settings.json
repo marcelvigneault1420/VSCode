@@ -39,7 +39,13 @@
     "editor.cursorStyle": "line",
     //Automatically indent file
     "editor.formatOnPaste": true,
+    // Set the default
     "editor.formatOnSave": true,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     //Remove useless white space on the right of lines
     "editor.trimAutoWhitespace": true,
     "files.trimTrailingWhitespace": true,
@@ -127,7 +133,7 @@
                     "entity.name.tag",
                 ],
                 "settings": {
-                    "foreground": "#60aaff"
+                    "foreground": "#ff8e97"
                 }
             },
             {
@@ -135,7 +141,7 @@
                     "entity.other.attribute-name",
                 ],
                 "settings": {
-                    "foreground": "#54e0ff"
+                    "foreground": "#eea9ff"
                 }
             },
             {
@@ -279,14 +285,14 @@
         }
     },
     "editor.detectIndentation": false,
-    "[javascript]": {
-        "editor.formatOnSave": false
-    },
     "scss.validate": false,
     "editor.largeFileOptimizations": false,
     "zenMode.hideStatusBar": false,
     "workbench.activityBar.visible": false,
     "workbench.statusBar.feedback.visible": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "zenMode.hideTabs": false
+    "zenMode.hideTabs": false,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "prettier.singleQuote": true
 }

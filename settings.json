@@ -20,7 +20,7 @@
         "**/config/routes": true,
         "**/src/Migrations": true,
         "**/bin": true,
-        "**/var": true,
+        "**/var": true
     },
     "search.collapseResults": "alwaysExpand",
     "search.smartCase": true,
@@ -39,7 +39,13 @@
     "editor.cursorStyle": "line",
     //Automatically indent file
     "editor.formatOnPaste": true,
+    // Set the default
     "editor.formatOnSave": true,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     //Remove useless white space on the right of lines
     "editor.trimAutoWhitespace": true,
     "files.trimTrailingWhitespace": true,
@@ -63,13 +69,18 @@
     "files.eol": "\n",
     //Get autocomplete inside strings
     "editor.quickSuggestions": {
-        "strings": true,
+        "strings": true
     },
     /**
      * THEME
      */
     //Selection colors
     "editor.cursorWidth": 2,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.list.openMode": "doubleClick",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#06669e67",
         "editorBracketMatch.background": "#4d4c4c7c",
@@ -90,66 +101,52 @@
                     "entity.other.inherited-class",
                     "storage",
                     "storage.modifier",
-                    "storage.type",
+                    "storage.type"
                 ],
                 "settings": {
                     "foreground": "#60aaff"
                 }
             },
             {
-                "scope": [
-                    "entity.other.inherited-class",
-                ],
+                "scope": ["entity.other.inherited-class"],
                 "settings": {
                     "foreground": "#83fd9d",
                     "fontStyle": "underline"
                 }
             },
             {
-                "scope": [
-                    "variable.language",
-                ],
+                "scope": ["variable.language"],
                 "settings": {
                     "foreground": "#eba5fd",
                     "fontStyle": "italic"
                 }
             },
             {
-                "scope": [
-                    "keyword.other",
-                ],
+                "scope": ["keyword.other"],
                 "settings": {
                     "foreground": "#60aaff"
                 }
             },
             {
-                "scope": [
-                    "entity.name.tag",
-                ],
+                "scope": ["entity.name.tag"],
                 "settings": {
-                    "foreground": "#60aaff"
+                    "foreground": "#ff8e97"
                 }
             },
             {
-                "scope": [
-                    "entity.other.attribute-name",
-                ],
+                "scope": ["entity.other.attribute-name"],
                 "settings": {
-                    "foreground": "#54e0ff"
+                    "foreground": "#eea9ff"
                 }
             },
             {
-                "scope": [
-                    "comment.block",
-                    "comment.block.documentation",
-                ],
+                "scope": ["comment.block", "comment.block.documentation"],
                 "settings": {
                     "foreground": "#9c9c9c"
                 }
             }
-        ],
+        ]
     },
-    "workbench.iconTheme": "material-icon-theme",
     "files.associations": {
         "*.twig": "html"
     },
@@ -162,15 +159,20 @@
         "editor.tabSize": 4,
         "editor.autoIndent": false
     },
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.autoClosingBrackets": "always",
     "editor.autoClosingQuotes": "always",
     "editor.codeActionsOnSaveTimeout": 1500,
     "editor.fastScrollSensitivity": 10,
-    "editor.mouseWheelZoom": true,
-    "editor.wordWrap": "off",
-    "editor.wrappingIndent": "deepIndent",
     "editor.find.autoFindInSelection": true,
     "editor.formatOnSaveTimeout": 1500,
+    "editor.mouseWheelZoom": true,
+    "editor.suggest.filterGraceful": false,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.wordWrap": "off",
+    "editor.wordBasedSuggestions": false,
+    "editor.wrappingIndent": "deepIndent",
     "workbench.commandPalette.history": 10,
     "workbench.tree.indent": 22,
     "workbench.editor.highlightModifiedTabs": true,
@@ -227,22 +229,13 @@
     "scss.lint.unknownVendorSpecificProperties": "warning",
     "scss.lint.zeroUnits": "warning",
     "zenMode.centerLayout": false,
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.wordBasedSuggestions": false,
-    "editor.suggest.filterGraceful": false,
-    "editor.suggestSelection": "recentlyUsedByPrefix",
     "debug.console.fontFamily": "Consolas",
-    "workbench.list.openMode": "doubleClick",
     "sasslint.configFile": "C:\\Users\\FMorin\\AppData\\Roaming\\Code\\User\\.sass-lint.yml",
     "eslint.autoFixOnSave": true,
     "eslint.options": {
         "rules": {
             "no-console": 0,
-            "indent": [
-                2,
-                4
-            ],
+            "indent": [2, 4],
             "semi": 2,
             "prefer-const": 0,
             "no-unused-vars": 1,
@@ -279,27 +272,19 @@
         }
     },
     "editor.detectIndentation": false,
-    "[javascript]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "scss.validate": false,
     "editor.largeFileOptimizations": false,
     "zenMode.hideStatusBar": false,
-    "workbench.activityBar.visible": false,
-    "workbench.statusBar.feedback.visible": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
     "zenMode.hideTabs": false,
     "files.defaultLanguage": "javascript",
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "editor.autoClosingOvertype": "always",
+    "typescript.preferences.quoteStyle": "single",
     "prettier.htmlWhitespaceSensitivity": "strict",
     "prettier.quoteProps": "consistent",
     "prettier.tabWidth": 4,
-    "editor.autoClosingOvertype": "always",
-    "javascript.preferences.quoteStyle": "single",
-    "typescript.preferences.quoteStyle": "single",
     "prettier.singleQuote": true,
     "gitlens.views.repositories.location": "scm",
     "gitlens.views.fileHistory.location": "scm",

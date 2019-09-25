@@ -426,7 +426,7 @@
     {
         "key": "ctrl+shift+n",
         "command": "explorer.newFolder",
-        "when": "!terminalFocus"
+        "when": "filesExplorerFocus"
     },
     {
         "key": "ctrl+shift+alt+n",
@@ -789,7 +789,7 @@
     {
         "key": "ctrl+n",
         "command": "workbench.action.files.newUntitledFile",
-        "when": "!terminalFocus"
+        "when": "!terminalFocus && !filesExplorerFocus"
     },
     {
         "key": "ctrl+n",
@@ -861,7 +861,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+alt+a",
+        "key": "shift+alt+a",
         "command": "editor.emmet.action.balanceIn"
     },
     {
@@ -900,10 +900,6 @@
         "key": "ctrl+shift+oem_1",
         "command": "-breadcrumbs.focus",
         "when": "breadcrumbsPossible"
-    },
-    {
-        "key": "ctrl+oem_1",
-        "command": "editor.emmet.action.toggleComment"
     },
     {
         "key": "f8",
@@ -952,5 +948,51 @@
         "key": "shift+f8",
         "command": "-editor.action.marker.prevInFiles",
         "when": "editorFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "-workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "eslint.executeAutofix"
+    },
+    {
+        "key": "ctrl+shift+alt+a",
+        "command": "editor.action.smartSelect.expand"
+    },
+    {
+        "key": "ctrl+oem_1",
+        "command": "editor.action.commentLine"
+    },
+    {
+        "key": "ctrl+alt+enter",
+        "command": "search.action.replaceAll",
+        "when": "replaceActive && searchViewletVisible && !findWidgetVisible"
+    },
+    {
+        "key": "ctrl+alt+enter",
+        "command": "-search.action.replaceAll",
+        "when": "replaceActive && searchViewletVisible && !findWidgetVisible"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "editor.action.replaceAll",
+        "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        "key": "ctrl+alt+enter",
+        "command": "-editor.action.replaceAll",
+        "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "duplicate.execute",
+        "when": "editorTextFocus"
     }
 ]

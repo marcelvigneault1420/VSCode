@@ -293,5 +293,9 @@
     "gitlens.views.search.location": "scm",
     "gitlens.defaultDateShortFormat": "D MMM YYYY",
     "gitlens.defaultDateFormat": "Do MMMM YYYY h:mm:a",
-    "gitlens.keymap": "none"
+    "gitlens.keymap": "none",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "extensions.ignoreRecommendations": false
 }

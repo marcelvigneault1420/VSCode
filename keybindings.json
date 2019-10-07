@@ -994,5 +994,20 @@
         "key": "ctrl+shift+n",
         "command": "duplicate.execute",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+g",
+        "command": "gitlens.toggleFileBlame",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+g b",
+        "command": "-gitlens.toggleFileBlame",
+        "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /blameable/"
+    },
+    {
+        "key": "alt+b",
+        "command": "-gitlens.toggleFileBlame",
+        "when": "editorTextFocus && config.gitlens.keymap == 'alternate' && gitlens:activeFileStatus =~ /blameable/"
     }
 ]

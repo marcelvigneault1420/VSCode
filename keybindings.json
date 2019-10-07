@@ -339,9 +339,8 @@
         "command": "-workbench.action.files.saveAll"
     },
     {
-        "key": "f12",
-        "command": "revealFileInOS",
-        "when": "!editorFocus"
+        "key": "ctrl+f12",
+        "command": "revealFileInOS"
     },
     {
         "key": "shift+alt+r",

@@ -167,7 +167,6 @@
     "editor.fastScrollSensitivity": 10,
     "editor.find.autoFindInSelection": true,
     "editor.formatOnSaveTimeout": 1500,
-    "editor.mouseWheelZoom": true,
     "editor.suggest.filterGraceful": false,
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.wordWrap": "off",

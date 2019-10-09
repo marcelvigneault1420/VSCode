@@ -108,39 +108,52 @@
                 }
             },
             {
-                "scope": ["entity.other.inherited-class"],
+                "scope": [
+                    "entity.other.inherited-class"
+                ],
                 "settings": {
                     "foreground": "#83fd9d",
                     "fontStyle": "underline"
                 }
             },
             {
-                "scope": ["variable.language"],
+                "scope": [
+                    "variable.language"
+                ],
                 "settings": {
                     "foreground": "#eba5fd",
                     "fontStyle": "italic"
                 }
             },
             {
-                "scope": ["keyword.other"],
+                "scope": [
+                    "keyword.other"
+                ],
                 "settings": {
                     "foreground": "#60aaff"
                 }
             },
             {
-                "scope": ["entity.name.tag"],
+                "scope": [
+                    "entity.name.tag"
+                ],
                 "settings": {
                     "foreground": "#ff8e97"
                 }
             },
             {
-                "scope": ["entity.other.attribute-name"],
+                "scope": [
+                    "entity.other.attribute-name"
+                ],
                 "settings": {
                     "foreground": "#eea9ff"
                 }
             },
             {
-                "scope": ["comment.block", "comment.block.documentation"],
+                "scope": [
+                    "comment.block",
+                    "comment.block.documentation"
+                ],
                 "settings": {
                     "foreground": "#9c9c9c"
                 }
@@ -234,7 +247,10 @@
     "eslint.options": {
         "rules": {
             "no-console": 0,
-            "indent": [2, 4],
+            "indent": [
+                2,
+                4
+            ],
             "semi": 2,
             "prefer-const": 0,
             "no-unused-vars": 1,
@@ -296,5 +312,12 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "prettier.disableLanguages": [
+        "vue",
+        "html"
+    ],
 }
